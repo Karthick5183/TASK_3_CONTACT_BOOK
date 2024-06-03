@@ -1,20 +1,3 @@
-# TASK_3_CONTACT_BOOK
-
-# CONTACT BOOK
- ## AIM
- To develop a contact book program in Python that allows users to add, view, update, delete, and search for contacts.
- ## ALGORITHM
- STEP1:Define the Contact Book Class
- Create a class to encapsulate contact information and operations on the contact book.
-STEP 2: Display Options to the UserProvide a menu to the user to select the desired operation such as add, view, update, delete, and search.
-STEP3:Take User Input Prompt the user to input the necessary details based on the chosen operation.
-STEP 4:Perform the OperationBased on the user’s choice, call the appropriate method to perform the operation on the contact book.
-STEP 6:Display the ResultOutput the result of the operation to the user.
-STEP7:Error HandlingHandle possible errors such as invalid input and missing contact details.
-STEP 8:Save and Load DataImplement functionality to save the contact book to a file and load it from a file.
-## PROGRAM
-```python
-
 contacts = {}
 
 def add_contact():
@@ -100,11 +83,3 @@ while True:
         break
     else:
         print("Invalid choice. Please enter a number between 1 and 6.")
-
-```
-## OUTPUT
-![](./WhatsApp%20Image%202024-06-03%20at%2016.39.24_adafb176.jpg)
-![](./WhatsApp%20Image%202024-06-03%20at%2016.40.04_931627e5.jpg)
-![](./WhatsApp%20Image%202024-06-03%20at%2016.40.25_17c6ade1.jpg)
-## RESULT
-program executed successfully
